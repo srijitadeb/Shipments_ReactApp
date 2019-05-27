@@ -1,0 +1,13 @@
+{
+  "baseUrl": "http://localhost:3000/shipments",
+  "linkInHeader": "Link",
+  "updateMethodName": "PATCH",
+  "updateHeaders": { "Content-Type": "application/json" },
+  "orderedByAsc": "asc",
+  "orderedByDesc": "desc",
+  "columnNames": ["id", "name", "mode", "type", "origin", "total", "status"],
+  "defaultPage": "1",
+  "staticQueryParam": "?_limit=20",
+  "serverError": "Error occured while fetching data from server... Sorry for the inconvenience",
+  "updateSuccess": "Name has been updated!!!"
+}

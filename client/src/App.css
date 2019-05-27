@@ -1,0 +1,151 @@
+.App {
+  text-align: center;
+  margin: auto;
+  width: 61%;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+section {
+  width: 100% !important;
+}
+.heading {
+  width: 74%;
+  float: left;
+  line-height: 56px;
+  font-size: 25px;
+}
+.App-link {
+  color: #61dafb;
+}
+table {
+  border-collapse: collapse;
+  margin: auto;
+  padding: 10px;
+  box-shadow: 1px 1px 1px 2px #eee;
+}
+
+table,
+th,
+td {
+  border: 1px solid #c3c1c1;
+}
+th,
+td {
+  padding: 15px;
+  text-align: left;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th {
+  background-color: #5bc0de;
+  color: white;
+}
+.fa-sort:before {
+  margin-right: 20px !important;
+}
+.pointer {
+  cursor: pointer;
+  color: #777171;
+}
+
+.searchContainer {
+  float: right;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  height: 31px;
+  margin-bottom: 20px;
+}
+.searchContainer input {
+  height: 30px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #c3c1c1;
+}
+.srchBtn {
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid #c3c1c1;
+  cursor: pointer;
+  background: #5bc0de;
+  color: #fff;
+  width: 36px;
+}
+.detailHeading {
+  line-height: 56px;
+  font-size: 25px;
+}
+.pagination {
+  margin: 20px 0px;
+  float: right;
+}
+
+.pagination span {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+  border: 1px solid #ddd;
+}
+.pagination span.active {
+  background-color: #4caf50;
+  color: white;
+  border: 1px solid #4caf50;
+}
+
+/* .pagination a:hover:not(.active) {background-color: #ddd;} */
+
+.pagination span:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.pagination span:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.editableField[disabled] {
+  border: 0 !important;
+}
+.editableField {
+  border: 1px solid #d5d5de;
+  display: inline-block;
+  box-sizing: inherit;
+  margin: 0;
+  padding: 5px;
+  line-height: inherit;
+  vertical-align: inherit;
+  text-align: right;
+  color: inherit;
+  font-size: 15px;
+  background: none;
+  margin-right: 10px;
+}
+.spanDiv {
+  cursor: pointer;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
